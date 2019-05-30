@@ -10,11 +10,6 @@ function MyInfo() {
 				<li>Cricket</li>
 				<li>Swiming</li>
 			</ol>
-			<ol>
-				<li>Football</li>
-				<li>Cricket</li>
-				<li>UFC</li>
-			</ol>
 		</div>
 	)
 }
