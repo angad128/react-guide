@@ -4,22 +4,22 @@ import '../js/navbar.js';
 
 function MyNavbar() {
 	return (
-		<nav class="topnav" id="myTopnav">
-		  <a href="#home" class="active">Home</a>
+		<nav className="topnav" id="myTopnav">
+		  <a href="#home" className="active">Home</a>
 		  <a href="#news">News</a>
 		  <a href="#contact">Contact</a>
-		  <div class="dropdown">
-		    <button class="dropbtn">Dropdown 
-		      <i class="fa fa-caret-down"></i>
+		  <div className="dropdown">
+		    <button className="dropbtn">Dropdown 
+		      <i className="fa fa-caret-down"></i>
 		    </button>
-		    <div class="dropdown-content">
+		    <div className="dropdown-content">
 		      <a href="#">Link 1</a>
 		      <a href="#">Link 2</a>
 		      <a href="#">Link 3</a>
 		    </div>
 		  </div> 
 		  <a href="#about">About</a>
-		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		  <a href="javascript:void(0);" className="icon" onclick="myFunction()">&#9776;</a>
 		</nav>
 
 	)
