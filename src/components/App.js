@@ -1,16 +1,32 @@
 import React from "react"
-import ContactCard from './ContactCard'
+import Joke from './Joke'
 
-
-
-function App(){
+function App() {
 	return (
 		<div>
-			<ContactCard contact={{name:"Mr.WHite", imgUrl:"http://placekitten.com/300/200", phone:"+977-9841 XXXXXX", email:"mr.white@email.com" }}/>
-			<ContactCard contact={{name:"Mr.red", imgUrl:"http://placekitten.com/300/200", phone:"+977-9843 XXXXXX", email:"mr.red@email.com" }}/>
-			<ContactCard contact={{name:"Mr.Black", imgUrl:"http://placekitten.com/300/200", phone:"+977-9842 XXXXXX", email:"mr.black@email.com" }}/>
-			<ContactCard contact={{name:"Mr.Yellow", imgUrl:"http://placekitten.com/300/200", phone:"+977-9845 XXXXXX", email:"mr.yellow@email.com" }}/>
-			
+			<Joke 
+				punchLine="Dame I dont havey any Questions........."
+			/>
+			<Joke 
+				question="Ask me if I'm orange?"
+				punchLine="You are not orange, Are U?"
+			/>
+			<Joke 
+				question="What does 420 means?"
+				punchLine="You"
+			/>
+			<Joke 
+				question="Goof for You"
+				punchLine="YEa"
+			/>
+			<Joke 
+				question="WHO ARE YOU?"
+				punchLine="YOU WILL KNOW."
+			/>
+			<Joke 
+				question="WHY ELGALES FLY SO HIGH?"
+				punchLine="IN search of best wuality."
+			/>
 		</div>
 	)
 }
